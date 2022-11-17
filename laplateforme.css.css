@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    font-family: Arial;
+    }
+body {
+    font-size: 24px;  
+    color: #232323;  
+    }
+h1 {
+    font-size: 36;
+    }
+h2 {
+    font-size: 32;
+    }
+#top {
+    justify-items: center;
+    float:left;
+    display: flex;
+    }
+#menu ul {
+    list-style-type:none;
+    }
+#menu li {
+    float:right;
+    margin:1px;
+    background-color:#232323;
+    }
+#menu li a {
+    justify-content: center;    
+    align-items: center;
+    display:flex;
+    height: 71px;
+    width:220px;
+    color:white;
+    text-decoration:none;
+    }
+#menu li a:hover {
+    color:#DC143C;
+    }
+#title {
+    justify-content: left;
+    float: center;
+    display: block;
+    float:left;
+    background-color:white;
+    }
+#total {
+    justify-content: space-between  ;
+    float: left;
+    display: block;
+    float:left;
+    background-color:white;
+    }
+#greybag {
+    width:100%;
+    background: #232323;
+    color: white;
+    }
+#cat1 #cat2 #cat3{
+    width:33.33%;
+    float:left;
+    text-align:center;
+    }
+
+#end {
+    justify-content: left;
+    float: center;
+    display: block;
+    float:left;
+    background-color:white;
+    }
+#carte
+{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
